@@ -153,8 +153,14 @@
 
 
 // ********************** 12-masala ************************
+// function  map4 (arg){
+// let a = arg.map(function(value){
+// return Math.sqrt(value)
+// })
+// return a ;
+// }
+// console.log(map4([1,4,9,16,25,36,49]));
 
-// Math.sqrt 
 
 
 //  ********** some/every ***********
@@ -244,5 +250,127 @@
 // ********************** 5-masala *************************
 
 // function umumiy5 (arg){
-// let a = arg.find.Index()
+// let a = arg.findIndex(function(value){
+// return value > 10 ;
+// })
+// return a ;
 // }
+// console.log(umumiy5([1,2,3,4,5,6,7,8,9,10,19]));
+
+
+// ********************** 6-masala *************************
+
+// function umumiy6 (arg){
+// let a = arg.findLast(function(value){
+// return value > 10 ;
+// })
+// return a ;
+// }
+// console.log(umumiy6([1,2,3,4,5,6,7,8,9,10,11]));
+
+
+// ********************** 7-masala *************************
+
+// function umumiy7 (arg){
+// let a = arg.findLastIndex(function(value){
+// return value > 10 ;
+// })
+// return a ;
+// }
+// console.log(umumiy7([1,2,3,4,5,6,7,8,9,10,19,9,1,4]));
+
+
+// ********************** 8-masala *************************
+
+// function umumiy8 (arg){
+// let a = arg.reverse();
+// return a ;
+// }
+// console.log(umumiy8([1,2,3,4,5,6,7,8,9,0]));
+
+
+// ********************** 9-masala *************************
+
+// function umumiy9 (arg){
+// let c = arg.sort(function(a,b){
+// return a - b ;
+// })
+// return c ;
+// }
+// console.log(umumiy9([1,4,2,6,8,3,7,9,5]));
+
+
+// ********************** 10-masala *************************
+
+// function umumiy10 (arg){
+//     let a = [] ;
+//  arg.forEach(function(value){
+//     a.push(value * 2)
+// })
+// return a ;
+// }
+// console.log(umumiy10([1,2,3,4,5,6,7,8,9]));
+
+
+// ********************** 11-masala *************************
+
+// function umumiy11 (arg){
+// let a = [] ;
+// a = arg.filter(function(value){
+// return value > 0 ;
+// })
+// return a ;
+// }
+// console.log(umumiy11([1,-5,2,3,4,-6,-7,-9]));
+
+
+// ********************** 12-masala *************************
+
+// function umumiy12 (arg){
+// let b = [] ;
+// b = arg.map(function(value,index){
+// return value ** 2 ;
+// })
+// return b ;
+// }
+// console.log(umumiy12([1,2,3,4,5,6,7,8,9]));
+
+
+// ********************** 13-masala *************************
+
+// function umumiy13 (arg){
+// let a = [] ;
+// a = arg.some(function(value){
+// return value < 0 ;
+// })
+// return a ;
+// }
+// console.log(umumiy13([1,2,3,4,5,6,7,8,-9]));
+
+
+// ********************** 14-masala *************************
+
+// function umumiy14 (arg){
+// let a = [] ;
+// a = arg.every(function(value){
+// return value > 0 ;
+// })
+// return a ;
+// }
+// console.log(umumiy14([1,2,3,4,5,6,7,8,9]));
+
+
+// ********************** 15-masala *************************
+
+// function umumiy15 (arg){
+// let p = [] ;
+// let a = [] ;
+// a = arg.map(function(value){
+// return value * 3 ;
+// })
+// p = a.filter(function(value){
+// return value > 10 ;
+// })
+// return p ;
+// }
+// console.log(umumiy15([1,2,3,4,5,6,7,8,9]));
